@@ -44,6 +44,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: rgba(255, 255, 255, 1);
 }
 
 #page-loading-blocs-notifaction {
@@ -129,7 +130,7 @@ a:hover {
 
 .d-bloc {
     color: rgba(255, 255, 255, .7);
-}
+} 
 
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
@@ -141,7 +142,7 @@ a:hover {
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
     border-color: rgba(255, 255, 255, .9);
-}
+} 
 
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
@@ -162,7 +163,7 @@ a:hover {
 .d-bloc h6 a,
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
-}
+} 
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -669,19 +670,17 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+
 p,
 label,
-.btn,
-a {
+.btn{
     font-family: "helvetica";
     font-weight: 400;
     color: #424242!important;
+}
+
+a{
+    color: rgba(255, 255, 255, .6);
 }
 
 .container {
@@ -707,7 +706,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -766,7 +765,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color:  rgba(255, 255, 255, .6)!important;
 }
 
 .portfolio-thumb {
@@ -801,20 +800,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#CB4B10;
 }
 
 .tc-white {
-    color: #F9DFD7!important;
+    color:  #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CB4B10;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background:#737373!important;
     color: #FFFFFF!important;
 }
 
