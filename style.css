@@ -24,7 +24,7 @@ blockquote p{
 cite{
     font-size: 14px;
     font-style: normal;
-}
+} 
 /*------ fin modification ------*/
 body {
     margin: 0;
@@ -673,12 +673,13 @@ a[data-lightbox]:hover img {
 
 p,
 label,
-.btn{
+{
     font-family: "helvetica";
     font-weight: 400;
     color: #424242!important;
 }
 
+.btn,
 a{
     color: rgba(255, 255, 255, .6);
 }
@@ -729,7 +730,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
+    max-width: 75%;
     margin: auto auto auto auto;
 }
 
@@ -765,7 +766,7 @@ h4 {
 }
 
 .white {
-    color:  rgba(255, 255, 255, .6)!important;
+    color:  #FFFFFF!important;
 }
 
 .portfolio-thumb {
@@ -1055,6 +1056,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    ul{
+        width: 250px;
+        margin: auto;
+    }
+   
 }
 
 @media (max-width: 400px) {
@@ -1066,7 +1072,7 @@ h4 {
        overflow: hidden;
        max-width: 300px;
        max-height: 300px;  
-    }
+    } 
 }
 
 @media (max-width: 767px) {
